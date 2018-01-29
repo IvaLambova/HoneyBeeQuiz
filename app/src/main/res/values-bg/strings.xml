@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name" translatable="true">Познавате ли пчелите?</string>
+    <!--A description of the first drawable image-->
+    <string name="image_one_description" translatable="true">Интро на приложението</string>
+    <!--A description of the second drawable image-->
+    <string name="image_two_description" translatable="true">Стрелка, насочваща играча към теста</string>
+    <!--A toast message appearing when the player name is empty-->
+    <string name="empty_player_name" translatable="true">Моля въведи име.</string>
+    <!--A toast message for a score >= 5 points-->
+    <string name="answer_summary_high" translatable="true">Поздравления, %s ! Отбеляза %d от 10 точки. Ти си повелителят на пчелите!</string>
+    <!--A toast message for a score < 5 points-->
+    <string name="answer_summary_low" translatable="true">Добър опит, %s! Отбеляза %d от 10 точки. Продължавай в този дух!</string>
+    <!--An empty box for player's name to be filled in-->
+    <string name="player_name" translatable="false">Въведи име</string>
+
+    <!--A label for question 1-->
+    <string name="question_1_label" translatable="true">Въпрос 1</string>
+    <!--Text question 1-->
+    <string name="question_1" translatable="true">Колко очи имат пчелите?</string>
+    <!--Question 1 first optional answer-->
+    <string name="question_1_a" translatable="true">8</string>
+    <!--Question 1 second optional answer-->
+    <string name="question_1_b" translatable="true">5</string>
+    <!--Question 1 third optional answer-->
+    <string name="question_1_c" translatable="true">2</string>
+    <!--Question 1 fourth optional answer-->
+    <string name="question_1_d" translatable="true">10</string>
+
+    <!--A label for question 2-->
+    <string name="question_2_label" translatable="true">Въпрос 2</string>
+    <!--Text question 2-->
+    <string name="question_2" translatable="true">Кои са трите членове на пчелната колония?</string>
+    <!--Question 2 first optional answer-->
+    <string name="question_2_a" translatable="true">Пчела майка</string>
+    <!--Question 2 second optional answer-->
+    <string name="question_2_b" translatable="true">Разузнавач на паша</string>
+    <!--Question 2 third optional answer-->
+    <string name="question_2_c" translatable="true">Пчела кърмачка</string>
+    <!--Question 2 fourth optional answer-->
+    <string name="question_2_d" translatable="true">Пчела чистач</string>
+    <!--Question 2 fifth optional answer-->
+    <string name="question_2_e" translatable="true">Работна пчела</string>
+    <!--Question 2 sixth optional answer-->
+    <string name="question_2_f" translatable="true">Търтей</string>
+
+    <!--A label for question 3-->
+    <string name="question_3_label" translatable="true">Въпрос 3</string>
+    <!--Text question 3-->
+    <string name="question_3" translatable="true">Коя от тези храни не се опрашва от пчелите?</string>
+    <!--Question 3 first optional answer-->
+    <string name="question_3_a" translatable="true">Ягоди</string>
+    <!--Question 3 second optional answer-->
+    <string name="question_3_b" translatable="true">Ориз</string>
+    <!--Question 3 third optional answer-->
+    <string name="question_3_c" translatable="true">Ябълки</string>
+    <!--Question 3 fourth optional answer-->
+    <string name="question_3_d" translatable="true">Бъдеми</string>
+
+    <!--A label for question 4-->
+    <string name="question_4_label" translatable="true">Въпрос 4</string>
+    <!--Text question 4-->
+    <string name="question_4" translatable="true">Кой член на пчелната колония няма жило?</string>
+    <!--Question 4 open answer-->
+    <string name="q4_text_answer" translatable="true">Въведи отговор</string>
+
+    <!--A label for question 5-->
+    <string name="question_5_label" translatable="true">Въпрос 5</string>
+    <!--Text question 5-->
+    <string name="question_5" translatable="true">Приблизително колко дълго време живее пчелата работничка?</string>
+    <!--Question 5 first optional answer-->
+    <string name="question_5_a" translatable="true">6 "-" 8 седмици</string>
+    <!--Question 5 second optional answer-->
+    <string name="question_5_b" translatable="true">6 "-" 8 месеца</string>
+    <!--Question 5 third optional answer-->
+    <string name="question_5_c" translatable="true">6 "-" 8 години</string>
+
+    <!--A label for question 6-->
+    <string name="question_6_label" translatable="true">Въпрос 6</string>
+    <!--Text question 6-->
+    <string name="question_6" translatable="true">Как пчелите предават на другите пчели къде са намерили богата и качествена паша?</string>
+    <!--Question 6 first optional answer-->
+    <string name="question_6_a" translatable="true">Чрез танц</string>
+    <!--Question 6 second optional answer-->
+    <string name="question_6_b" translatable="true">Оставяйки прашец по пътя</string>
+    <!--Question 6 third optional answer-->
+    <string name="question_6_c" translatable="true">Отвеждайки ги на мястото</string>
+    <!--Question 6 fourth optional answer-->
+    <string name="question_6_d" translatable="true">Оставяйки специална миризма по пътя</string>
+
+    <!--A label for question 7-->
+    <string name="question_7_label" translatable="true">Въпрос 7</string>
+    <!--Text question 7-->
+    <string name="question_7" translatable="true">Какво използват пчелите, за да събират прашец?</string>
+    <!--Question 7 first optional answer-->
+    <string name="question_7_a" translatable="true">Хобот</string>
+    <!--Question 7 second optional answer-->
+    <string name="question_7_b" translatable="true">Косъмчета</string>
+    <!--Question 7 third optional answer-->
+    <string name="question_7_c" translatable="true">Крака</string>
+
+    <!--A label for question 8-->
+    <string name="question_8_label" translatable="true">Въпрос 8</string>
+    <!--Text question 8-->
+    <string name="question_8" translatable="true">Коя е главната причина за намаляване броя на пчелите?</string>
+    <!--Question 8 first optional answer-->
+    <string name="question_8_a" translatable="true">Пестициди</string>
+    <!--Question 8 second optional answer-->
+    <string name="question_8_b" translatable="true">Загуба на местообитания</string>
+    <!--Question 8 third optional answer-->
+    <string name="question_8_c" translatable="true">Болести</string>
+    <!--Question 8 fourth optional answer-->
+    <string name="question_8_d" translatable="true">Глобално затопляне</string>
+
+    <!--A label for question 9-->
+    <string name="question_9_label" translatable="true">Въпрос 9</string>
+    <!--Text question 9-->
+    <string name="question_9" translatable="true">Медът се прави от прашец?</string>
+    <!--Question 9 first optional answer-->
+    <string name="question_9_a" translatable="true">Вярно</string>
+    <!--Question 9 second optional answer-->
+    <string name="question_9_b" translatable="true">Грешно</string>
+
+    <!--A label for question 10-->
+    <string name="question_10_label" translatable="true">Въпрос 10</string>
+    <!--Text question 10-->
+    <string name="question_10" translatable="true">Приблизително колко пчели са нужни за напрвата на 450 гр мед?</string>
+    <!--Question 10 first optional answer-->
+    <string name="question_10_a" translatable="true">3</string>
+    <!--Question 10 second optional answer-->
+    <string name="question_10_b" translatable="true">25</string>
+    <!--Question 10 third optional answer-->
+    <string name="question_10_c" translatable="true">10</string>
+
+    <!--Submit button text label-->
+    <string name="submit_button" translatable="true">Резултат</string>
+    <!--Reset button text label-->
+    <string name="reset_button" translatable="true">Отново</string>
+
+</resources>

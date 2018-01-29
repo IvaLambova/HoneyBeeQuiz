@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Primary color of the app-->
+    <color name="colorPrimary">#fdd835</color>
+    <!--Primary dark color of the app-->
+    <color name="colorPrimaryDark">#c6a700</color>
+    <!--Accent color of the app-->
+    <color name="colorAccent">#ffff6b</color>
+    <!--Background color used for the question cards-->
+    <color name="gold">#FFD700</color>
+    <!--Color used for question labels and question text-->
+    <color name="white">#ffffff</color>
+    <!--Background color used for the root vertical LinearLayout-->
+    <color name="dark_yellow">#FFB900</color>
+</resources>

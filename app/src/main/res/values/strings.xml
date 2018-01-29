@@ -1,0 +1,140 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">HoneyBee Quiz</string>
+    <!--A description of the first drawable image-->
+    <string name="image_one_description">App welcoming intro</string>
+    <!--A description of the second drawable image-->
+    <string name="image_two_description">An arrow, guiding the player to continue downwards</string>
+    <!--A toast message appearing when the player name is empty-->
+    <string name="empty_player_name">Please type in your name.</string>
+     <!--A toast message for a score >= 5 points-->
+    <string name="answer_summary_high">Congratulations, <xliff:g id="name" example="Amy">%1$s</xliff:g> ! You have scored <xliff:g id="final_score" example="8">%1$%d</xliff:g> out of 10. You are a buzz!</string>
+    <!--A toast message for a score < 5 points-->
+    <string name="answer_summary_low">Good try,<xliff:g id="name" example="Amy">%1$s</xliff:g>! You have scored <xliff:g id="final_score" example="8">%1$%d</xliff:g> out of 10. Need a bit more buzz next time.</string>
+    <!--An empty box for player's name to be filled in-->
+    <string name="player_name">Type your name</string>
+
+    <!--A label for question 1-->
+    <string name="question_1_label">Question 1</string>
+    <!--Text question 1-->
+    <string name="question_1">How many eyes does a honeybee have?</string>
+    <!--Question 1 first optional answer-->
+    <string name="question_1_a">8</string>
+    <!--Question 1 second optional answer-->
+    <string name="question_1_b">5</string>
+    <!--Question 1 third optional answer-->
+    <string name="question_1_c">2</string>
+    <!--Question 1 fourth optional answer-->
+    <string name="question_1_d">10</string>
+
+    <!--A label for question 2-->
+    <string name="question_2_label">Question 2</string>
+    <!--Text question 2-->
+    <string name="question_2">What are the three members of a honeybee colony? (Select all that apply)</string>
+    <!--Question 2 first optional answer-->
+    <string name="question_2_a">Queen</string>
+    <!--Question 2 second optional answer-->
+    <string name="question_2_b">Collector</string>
+    <!--Question 2 third optional answer-->
+    <string name="question_2_c">Layer</string>
+    <!--Question 2 fourth optional answer-->
+    <string name="question_2_d">Cleaner</string>
+    <!--Question 2 fifth optional answer-->
+    <string name="question_2_e">Worker</string>
+    <!--Question 2 sixth optional answer-->
+    <string name="question_2_f">Drone</string>
+
+    <!--A label for question 3-->
+    <string name="question_3_label">Question 3</string>
+    <!--Text question 3-->
+    <string name="question_3">Which of these foods is not pollinated by honeybees?</string>
+    <!--Question 3 first optional answer-->
+    <string name="question_3_a">Strawberries</string>
+    <!--Question 3 second optional answer-->
+    <string name="question_3_b">Rice</string>
+    <!--Question 3 third optional answer-->
+    <string name="question_3_c">Apples</string>
+    <!--Question 3 fourth optional answer-->
+    <string name="question_3_d">Almonds</string>
+
+    <!--A label for question 4-->
+    <string name="question_4_label">Question 4</string>
+    <!--Text question 4-->
+    <string name="question_4">Which member of the honeybee colony has no stinger?</string>
+    <!--Question 4 open answer-->
+    <string name="q4_text_answer">Type your answer here</string>
+
+    <!--A label for question 5-->
+    <string name="question_5_label">Question 5</string>
+    <!--Text question 5-->
+    <string name="question_5">What is the lifespan of a worker honeybee?</string>
+    <!--Question 5 first optional answer-->
+    <string name="question_5_a">6 "-" 8 weeks</string>
+    <!--Question 5 second optional answer-->
+    <string name="question_5_b">6 "-" 8 months</string>
+    <!--Question 5 third optional answer-->
+    <string name="question_5_c">6 "-" 8 years</string>
+
+    <!--A label for question 6-->
+    <string name="question_6_label">Question 6</string>
+    <!--Text question 6-->
+    <string name="question_6">How do bees show other bees where they found good forage?</string>
+    <!--Question 6 first optional answer-->
+    <string name="question_6_a">By dancing</string>
+    <!--Question 6 second optional answer-->
+    <string name="question_6_b">By leaving pollen along the way</string>
+    <!--Question 6 third optional answer-->
+    <string name="question_6_c">By leading them there</string>
+    <!--Question 6 fourth optional answer-->
+    <string name="question_6_d">By leaving special scent along the way</string>
+
+    <!--A label for question 7-->
+    <string name="question_7_label">Question 7</string>
+    <!--Text question 7-->
+    <string name="question_7">What do honeybees use to collect pollen?</string>
+    <!--Question 7 first optional answer-->
+    <string name="question_7_a">Tongue</string>
+    <!--Question 7 second optional answer-->
+    <string name="question_7_b">Hair</string>
+    <!--Question 7 third optional answer-->
+    <string name="question_7_c">Legs</string>
+
+    <!--A label for question 8-->
+    <string name="question_8_label">Question 8</string>
+    <!--Text question 8-->
+    <string name="question_8">What is the main cause of bee decline?</string>
+    <!--Question 8 first optional answer-->
+    <string name="question_8_a">Pesticides</string>
+    <!--Question 8 second optional answer-->
+    <string name="question_8_b">Habitat loss</string>
+    <!--Question 8 third optional answer-->
+    <string name="question_8_c">Diseases</string>
+    <!--Question 8 fourth optional answer-->
+    <string name="question_8_d">Climate change</string>
+
+    <!--A label for question 9-->
+    <string name="question_9_label">Question 9</string>
+    <!--Text question 9-->
+    <string name="question_9">Honey is made from pollen?</string>
+    <!--Question 9 first optional answer-->
+    <string name="question_9_a">True</string>
+    <!--Question 9 second optional answer-->
+    <string name="question_9_b">False</string>
+
+    <!--A label for question 10-->
+    <string name="question_10_label">Question 10</string>
+    <!--Text question 10-->
+    <string name="question_10">Approximately how many honeybees does it take to make 1 pound of honey?</string>
+    <!--Question 10 first optional answer-->
+    <string name="question_10_a">3</string>
+    <!--Question 10 second optional answer-->
+    <string name="question_10_b">25</string>
+    <!--Question 10 third optional answer-->
+    <string name="question_10_c">10</string>
+
+    <!--Submit button text label-->
+    <string name="submit_button">Submit</string>
+    <!--Reset button text label-->
+    <string name="reset_button">Reset</string>
+
+</resources>
