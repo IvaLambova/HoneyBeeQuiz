@@ -5,3 +5,4 @@ The app includes a button for the user to submit their answers and receive a sco
 To overcome the screen rotation challenges the app uses a scrollable feature.	
 The grading logic checks each answer and calculates the number of correct answers and does not include incorrect answers in the count.
 It finally displays the score in a Toast message after clicking the submit button.
+The app supports Bulgarian language.
