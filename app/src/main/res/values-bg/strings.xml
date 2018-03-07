@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name" translatable="true">Познавате ли пчелите?</string>
     <!--A description of the first drawable image-->
     <string name="image_one_description" translatable="true">Интро на приложението</string>
@@ -7,9 +7,9 @@
     <!--A toast message appearing when the player name is empty-->
     <string name="empty_player_name" translatable="true">Моля въведи име.</string>
     <!--A toast message for a score >= 5 points-->
-    <string name="answer_summary_high" translatable="true">Поздравления, %s ! Отбеляза %d от 10 точки. Ти си повелителят на пчелите!</string>
+    <string name="answer_summary_high" translatable="true">Поздравления, <xliff:g id="name" example="Еми">%s</xliff:g>! Отбеляза <xliff:g id="final_score" example="8">%d</xliff:g> от 10 точки. Ти си повелителят на пчелите!</string>
     <!--A toast message for a score < 5 points-->
-    <string name="answer_summary_low" translatable="true">Добър опит, %s! Отбеляза %d от 10 точки. Продължавай в този дух!</string>
+    <string name="answer_summary_low" translatable="true">Добър опит, <xliff:g id="name" example="Еми">%s</xliff:g>! Отбеляза <xliff:g id="final_score" example="8">%d</xliff:g> от 10 точки. Продължавай в този дух!</string>
     <!--An empty box for player's name to be filled in-->
     <string name="player_name" translatable="false">Въведи име</string>
 
@@ -54,7 +54,7 @@
     <!--Question 3 third optional answer-->
     <string name="question_3_c" translatable="true">Ябълки</string>
     <!--Question 3 fourth optional answer-->
-    <string name="question_3_d" translatable="true">Бъдеми</string>
+    <string name="question_3_d" translatable="true">Бадеми</string>
 
     <!--A label for question 4-->
     <string name="question_4_label" translatable="true">Въпрос 4</string>

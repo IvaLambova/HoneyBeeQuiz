@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    // android:textSize dimension 14sp
     <dimen name="text_size_14">14sp</dimen>
+
+    // android:textSize dimension 18sp
     <dimen name="text_size_18">18sp</dimen>
-    <dimen name="dim8">8dp</dimen>
-    <dimen name="dim16">16dp</dimen>
-    <dimen name="dim20">20dp</dimen>
-    <dimen name="dim26">26dp</dimen>
-    <dimen name="dim30">30dp</dimen>
-    <dimen name="dim60">60dp</dimen>
+
+    // card_view:cardCornerRadius dimension 8dp
+    <dimen name="padding_8">8dp</dimen>
+
+    // card_view:cardCornerRadius dimension 16dp
+    <dimen name="radius_16">16dp</dimen>
+
+    // card_view:cardCornerRadius dimension 1000dp
+    <dimen name="radius_1000">1000dp</dimen>
+
+    //  card_view:cardElevation 16dp
+    <dimen name="elevation_16">16dp</dimen>
+
+    // android:padding dimension 16dp
+    <dimen name="padding_16">16dp</dimen>
+
+    // android:layout_margin dimension 8dp
+    <dimen name="margin_8">8dp</dimen>
+
+    // android:layout_margin dimension 16dp
+    <dimen name="margin_16">16dp</dimen>
+
+    // android:layout_margin dimension 24dp
+    <dimen name="margin_24">24dp</dimen>
+
+    // android:layout_margin dimension 26dp
+    <dimen name="margin_26">26dp</dimen>
+
+    // android:layout_margin dimension 30dp
+    <dimen name="margin_30">30dp</dimen>
+
+    // android:layout_margin dimension 60dp
+    <dimen name="margin_60">60dp</dimen>
+
 
 </resources>

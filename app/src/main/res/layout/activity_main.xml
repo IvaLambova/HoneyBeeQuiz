@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,15 +14,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:layout_margin="@dimen/dim26"
-        card_view:cardCornerRadius="@dimen/dim16"
-        card_view:cardElevation="@dimen/dim16">
+        android:layout_margin="@dimen/margin_26"
+        card_view:cardCornerRadius="@dimen/radius_16"
+        card_view:cardElevation="@dimen/elevation_16">
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <LinearLayout
+                style="@style/LinearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/dark_yellow"
@@ -36,9 +38,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:src="@drawable/welcome_bee_quiz"
-                        android:padding="@dimen/dim16"
-                        android:contentDescription="@string/image_one_description"/>
+                        android:contentDescription="@string/image_one_description"
+                        android:padding="@dimen/padding_16"
+                        android:src="@drawable/welcome_bee_quiz" />
 
                 </LinearLayout>
 
@@ -47,18 +49,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textAlignment="center"
-                    android:layout_marginBottom="@dimen/dim16"
-                    android:layout_marginTop="@dimen/dim16"
-                    android:hint="@string/player_name"/>
+                    android:layout_marginBottom="@dimen/margin_16"
+                    android:layout_marginTop="@dimen/margin_16"
+                    android:hint="@string/player_name"
+                    android:textAlignment="center" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginBottom="@dimen/dim60"
-                    android:src="@drawable/continue_arrow"
-                    android:contentDescription="@string/image_two_description"/>
+                    android:layout_marginBottom="@dimen/margin_60"
+                    android:contentDescription="@string/image_two_description"
+                    android:src="@drawable/continue_arrow" />
 
                 <android.support.v7.widget.CardView
                     android:id="@+id/card_question_1"
@@ -71,12 +73,12 @@
                         <TextView
                             android:id="@+id/question_1_label"
                             style="@style/TextViewQuestionLabel"
-                            android:text="@string/question_1_label"/>
+                            android:text="@string/question_1_label" />
 
                         <TextView
                             android:id="@+id/question_1"
                             style="@style/TextViewQuestion"
-                            android:text="@string/question_1"/>
+                            android:text="@string/question_1" />
 
                     </LinearLayout>
 
@@ -94,22 +96,22 @@
                         <RadioButton
                             android:id="@+id/radio_button_q1_a"
                             style="@style/AnswerOneOption"
-                            android:text="@string/question_1_a"/>
+                            android:text="@string/question_1_a" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q1_b"
                             style="@style/AnswerOneOption"
-                            android:text="@string/question_1_b"/>
+                            android:text="@string/question_1_b" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q1_c"
                             style="@style/AnswerOneOption"
-                            android:text="@string/question_1_c"/>
+                            android:text="@string/question_1_c" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q1_d"
                             style="@style/AnswerOneOption"
-                            android:text="@string/question_1_d"/>
+                            android:text="@string/question_1_d" />
 
                     </RadioGroup>
 
@@ -126,12 +128,12 @@
                         <TextView
                             android:id="@+id/question_2_label"
                             style="@style/TextViewQuestionLabel"
-                            android:text="@string/question_2_label"/>
+                            android:text="@string/question_2_label" />
 
                         <TextView
                             android:id="@+id/question_2"
                             style="@style/TextViewQuestion"
-                            android:text="@string/question_2"/>
+                            android:text="@string/question_2" />
 
                     </LinearLayout>
 
@@ -149,34 +151,34 @@
                         <CheckBox
                             android:id="@+id/checked_button_q2_a"
                             style="@style/AnswerMultipleOptions"
-                            android:text="@string/question_2_a"/>
+                            android:text="@string/question_2_a" />
 
                         <CheckBox
                             android:id="@+id/checked_button_q2_b"
                             style="@style/AnswerMultipleOptions"
-                            android:text="@string/question_2_b"/>
+                            android:text="@string/question_2_b" />
 
                         <CheckBox
                             android:id="@+id/checked_button_q2_c"
                             style="@style/AnswerMultipleOptions"
-                            android:text="@string/question_2_c"/>
+                            android:text="@string/question_2_c" />
 
                         <CheckBox
                             android:id="@+id/checked_button_q2_d"
                             style="@style/AnswerMultipleOptions"
-                            android:text="@string/question_2_d"/>
+                            android:text="@string/question_2_d" />
 
 
                         <CheckBox
                             android:id="@+id/checked_button_q2_e"
                             style="@style/AnswerMultipleOptions"
-                            android:text="@string/question_2_e"/>
+                            android:text="@string/question_2_e" />
 
 
                         <CheckBox
                             android:id="@+id/checked_button_q2_f"
                             style="@style/AnswerMultipleOptions"
-                            android:text="@string/question_2_f"/>
+                            android:text="@string/question_2_f" />
 
                     </LinearLayout>
 
@@ -216,22 +218,22 @@
                         <RadioButton
                             android:id="@+id/radio_button_q3_a"
                             style="@style/AnswerOneOptionVertical"
-                            android:text="@string/question_3_a"/>
+                            android:text="@string/question_3_a" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q3_b"
                             style="@style/AnswerOneOptionVertical"
-                            android:text="@string/question_3_b"/>
+                            android:text="@string/question_3_b" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q3_c"
                             style="@style/AnswerOneOptionVertical"
-                            android:text="@string/question_3_c"/>
+                            android:text="@string/question_3_c" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q3_d"
                             style="@style/AnswerOneOptionVertical"
-                            android:text="@string/question_3_d"/>
+                            android:text="@string/question_3_d" />
 
                     </RadioGroup>
 
@@ -248,7 +250,7 @@
                         <TextView
                             android:id="@+id/question_4_label"
                             style="@style/TextViewQuestionLabel"
-                            android:text="@string/question_4_label"/>
+                            android:text="@string/question_4_label" />
 
                         <TextView
                             android:id="@+id/question_4"
@@ -267,12 +269,12 @@
                         style="@style/LinearLayoutQuestionAnswer"
                         android:orientation="vertical">
 
-                    <EditText
-                        android:id="@+id/edit_text_q4"
-                        style="@style/TextAnswer"
-                        android:hint="@string/q4_text_answer">
+                        <EditText
+                            android:id="@+id/edit_text_q4"
+                            style="@style/TextAnswer"
+                            android:hint="@string/q4_text_answer">
 
-                    </EditText>
+                        </EditText>
 
                     </LinearLayout>
 
@@ -289,7 +291,7 @@
                         <TextView
                             android:id="@+id/question_5_label"
                             style="@style/TextViewQuestionLabel"
-                            android:text="@string/question_5_label"/>
+                            android:text="@string/question_5_label" />
 
                         <TextView
                             android:id="@+id/question_5"
@@ -312,17 +314,17 @@
                         <RadioButton
                             android:id="@+id/radio_button_q5_a"
                             style="@style/AnswerOneOption"
-                            android:text="@string/question_5_a"/>
+                            android:text="@string/question_5_a" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q5_b"
                             style="@style/AnswerOneOption"
-                            android:text="@string/question_5_b"/>
+                            android:text="@string/question_5_b" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q5_c"
                             style="@style/AnswerOneOption"
-                            android:text="@string/question_5_c"/>
+                            android:text="@string/question_5_c" />
 
                     </RadioGroup>
 
@@ -339,7 +341,7 @@
                         <TextView
                             android:id="@+id/question_6_label"
                             style="@style/TextViewQuestionLabel"
-                            android:text="@string/question_6_label"/>
+                            android:text="@string/question_6_label" />
 
                         <TextView
                             android:id="@+id/question_6"
@@ -362,22 +364,22 @@
                         <RadioButton
                             android:id="@+id/radio_button_q6_a"
                             style="@style/AnswerOneOptionVertical"
-                            android:text="@string/question_6_a"/>
+                            android:text="@string/question_6_a" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q6_b"
                             style="@style/AnswerOneOptionVertical"
-                            android:text="@string/question_6_b"/>
+                            android:text="@string/question_6_b" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q6_c"
                             style="@style/AnswerOneOptionVertical"
-                            android:text="@string/question_6_c"/>
+                            android:text="@string/question_6_c" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q6_d"
                             style="@style/AnswerOneOptionVertical"
-                            android:text="@string/question_6_d"/>
+                            android:text="@string/question_6_d" />
 
                     </RadioGroup>
 
@@ -394,7 +396,7 @@
                         <TextView
                             android:id="@+id/question_7_label"
                             style="@style/TextViewQuestionLabel"
-                            android:text="@string/question_7_label"/>
+                            android:text="@string/question_7_label" />
 
                         <TextView
                             android:id="@+id/question_7"
@@ -417,17 +419,17 @@
                         <RadioButton
                             android:id="@+id/radio_button_q7_a"
                             style="@style/AnswerOneOptionVertical"
-                            android:text="@string/question_7_a"/>
+                            android:text="@string/question_7_a" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q7_b"
                             style="@style/AnswerOneOptionVertical"
-                            android:text="@string/question_7_b"/>
+                            android:text="@string/question_7_b" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q7_c"
                             style="@style/AnswerOneOptionVertical"
-                            android:text="@string/question_7_c"/>
+                            android:text="@string/question_7_c" />
 
                     </RadioGroup>
 
@@ -444,7 +446,7 @@
                         <TextView
                             android:id="@+id/question_8_label"
                             style="@style/TextViewQuestionLabel"
-                            android:text="@string/question_8_label"/>
+                            android:text="@string/question_8_label" />
 
                         <TextView
                             android:id="@+id/question_8"
@@ -467,22 +469,22 @@
                         <RadioButton
                             android:id="@+id/radio_button_q8_a"
                             style="@style/AnswerOneOptionVertical"
-                            android:text="@string/question_8_a"/>
+                            android:text="@string/question_8_a" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q8_b"
                             style="@style/AnswerOneOptionVertical"
-                            android:text="@string/question_8_b"/>
+                            android:text="@string/question_8_b" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q8_c"
                             style="@style/AnswerOneOptionVertical"
-                            android:text="@string/question_8_c"/>
+                            android:text="@string/question_8_c" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q8_d"
                             style="@style/AnswerOneOptionVertical"
-                            android:text="@string/question_8_d"/>
+                            android:text="@string/question_8_d" />
 
                     </RadioGroup>
 
@@ -499,7 +501,7 @@
                         <TextView
                             android:id="@+id/question_9_label"
                             style="@style/TextViewQuestionLabel"
-                            android:text="@string/question_9_label"/>
+                            android:text="@string/question_9_label" />
 
                         <TextView
                             android:id="@+id/question_9"
@@ -522,12 +524,12 @@
                         <RadioButton
                             android:id="@+id/radio_button_q9_a"
                             style="@style/AnswerOneOption"
-                            android:text="@string/question_9_a"/>
+                            android:text="@string/question_9_a" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q9_b"
                             style="@style/AnswerOneOption"
-                            android:text="@string/question_9_b"/>
+                            android:text="@string/question_9_b" />
 
                     </RadioGroup>
 
@@ -544,7 +546,7 @@
                         <TextView
                             android:id="@+id/question_10_label"
                             style="@style/TextViewQuestionLabel"
-                            android:text="@string/question_10_label"/>
+                            android:text="@string/question_10_label" />
 
                         <TextView
                             android:id="@+id/question_10"
@@ -567,59 +569,59 @@
                         <RadioButton
                             android:id="@+id/radio_button_q10_a"
                             style="@style/AnswerOneOption"
-                            android:text="@string/question_10_a"/>
+                            android:text="@string/question_10_a" />
 
                         <RadioButton
                             android:id="@+id/radio_button_10_b"
                             style="@style/AnswerOneOption"
-                            android:text="@string/question_10_b"/>
+                            android:text="@string/question_10_b" />
 
                         <RadioButton
                             android:id="@+id/radio_button_10_c"
                             style="@style/AnswerOneOption"
-                            android:text="@string/question_10_c"/>
+                            android:text="@string/question_10_c" />
 
                     </RadioGroup>
 
                 </android.support.v7.widget.CardView>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:baselineAligned="false"
-                android:orientation="horizontal"
-                style="?android:attr/buttonBarStyle">
-
                 <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/submit_button"
-                    style="@style/SubmitButton"
-                    android:text="@string/submit_button"
-                    android:onClick="submitButton" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/submit_button"
+                            style="@style/SubmitButton"
+                            android:onClick="submitButton"
+                            android:text="@string/submit_button" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="?android:attr/buttonBarStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/reset_button"
+                            style="@style/ResetButton"
+                            android:onClick="resetScore"
+                            android:text="@string/reset_button" />
+
+                    </LinearLayout>
 
                 </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    style="?android:attr/buttonBarStyle">
-
-                    <Button
-                        android:id="@+id/reset_button"
-                        style="@style/ResetButton"
-                        android:text="@string/reset_button"
-                        android:onClick="resetScore" />
-
-                </LinearLayout>
-
-            </LinearLayout>
 
             </LinearLayout>
 

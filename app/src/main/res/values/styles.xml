@@ -1,73 +1,82 @@
 <resources>
 
-    <!--Base application theme-->
+    <!-- Base application theme -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!--Theme style including colors and text font-->
+        <!-- Theme style including colors and text font -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:typeface">serif</item>
     </style>
 
-    <!--Basic style of the Question Card Views-->
+    <!-- Question Card Views style -->
+    <style name="LinearLayout" parent="AppTheme">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:background">@color/dark_yellow</item>
+    <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Question Card Views style -->
     <style name="QuestionCard" parent="CardView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:layout_marginTop">@dimen/dim30</item>
-        <item name="android:layout_marginBottom">@dimen/dim16</item>
-        <item name="android:layout_marginLeft">@dimen/dim16</item>
-        <item name="android:layout_marginRight">@dimen/dim16</item>
-        <item name="android:padding">@dimen/dim16</item>
-        <item name="cardBackgroundColor">@color/gold</item>
-        <item name="cardCornerRadius">@dimen/dim16</item>
-        <item name="cardElevation">@dimen/dim16</item>
+        <item name="android:layout_marginTop">@dimen/margin_30</item>
+        <item name="android:layout_marginBottom">@dimen/margin_16</item>
+        <item name="android:layout_marginLeft">@dimen/margin_16</item>
+        <item name="android:layout_marginRight">@dimen/margin_16</item>
+        <item name="android:padding">@dimen/padding_16</item>
+        <item name="cardBackgroundColor">@color/dark_grey</item>
+        <item name="cardCornerRadius">@dimen/radius_16</item>
+        <item name="cardElevation">@dimen/elevation_16</item>
         <item name="android:typeface">serif</item>
     </style>
 
-    <!--Basic style of the Answer Card Views-->
+    <!-- Answer Card Views style -->
     <style name="AnswerCard" parent="CardView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:layout_marginBottom">@dimen/dim16</item>
-        <item name="android:layout_marginLeft">@dimen/dim16</item>
-        <item name="android:layout_marginRight">@dimen/dim16</item>
-        <item name="android:padding">@dimen/dim16</item>
-        <item name="cardCornerRadius">@dimen/dim16</item>
-        <item name="cardElevation">@dimen/dim16</item>
+        <item name="android:layout_marginBottom">@dimen/margin_16</item>
+        <item name="android:layout_marginLeft">@dimen/margin_16</item>
+        <item name="android:layout_marginRight">@dimen/margin_16</item>
+        <item name="android:padding">@dimen/padding_16</item>
+        <item name="cardCornerRadius">@dimen/radius_16</item>
+        <item name="cardElevation">@dimen/elevation_16</item>
         <item name="android:typeface">serif</item>
     </style>
 
-    <!--Basic style of the vertical LinearLayout holding the question label and question text (incl. question 1-10)-->
+    <!-- Style of the vertical LinearLayout holding the question label and question text (incl. question 1-10) -->
     <style name="LinearLayoutQuestionAnswer">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">@dimen/dim16</item>
+        <item name="android:layout_margin">@dimen/margin_16</item>
+        <item name="android:typeface">serif</item>
     </style>
 
-    <!--Basic style of the vertical LinearLayout holding question 2 with the relevant CheckBoxes -->
+    <!-- Style of the vertical LinearLayout holding question 2 with the relevant CheckBoxes -->
     <style name="LinearLayoutMultipleQuestionAnswer">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_margin">@dimen/dim16</item>
+        <item name="android:layout_margin">@dimen/margin_16</item>
         <item name="android:background">@color/white</item>
         <item name="android:typeface">serif</item>
     </style>
 
-    <!--Basic style of the TextViews holding the question label (incl. question 1-10)-->
+    <!-- Style of the TextViews holding the question label (incl. question 1-10) -->
     <style name="TextViewQuestionLabel">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:paddingBottom">@dimen/dim8</item>
+        <item name="android:paddingBottom">@dimen/padding_8</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
         <item name="android:typeface">serif</item>
     </style>
 
-    <!--Basic style of the TextViews holding the question text (incl. question 1-10)-->
+    <!-- Style of the TextViews holding the question text (incl. question 1-10) -->
     <style name="TextViewQuestion">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -79,72 +88,78 @@
         <item name="android:textSize">@dimen/text_size_18</item>
     </style>
 
-    <!--Basic style of the RadioGroup holding the Radio Buttons (incl. question 1, 3, 5, 6, 7, 8, 9, 10)-->
+    <!-- Style of the RadioGroup holding the Radio Buttons (incl. question 1, 3, 5, 6, 7, 8, 9, 10) -->
     <style name="RadioGroup">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:padding">@dimen/dim16</item>
+        <item name="android:padding">@dimen/padding_16</item>
     </style>
 
-    <!--Basic style of each horizontal Radio Button (incl. question 1, 5, 9, 10)-->
+    <!-- Style of each horizontal Radio Button (incl. question 1, 5, 9, 10) -->
     <style name="AnswerOneOption">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
         <item name="android:textSize">@dimen/text_size_14</item>
-        <item name="android:layout_marginRight">@dimen/dim8</item>
+        <item name="android:layout_marginRight">@dimen/margin_8</item>
         <item name="android:typeface">serif</item>
     </style>
 
-    <!--Basic style of each vertical Radio Button (incl. question 3, 6, 7, 8)-->
+    <!-- Style of each vertical Radio Button (incl. question 3, 6, 7, 8) -->
     <style name="AnswerOneOptionVertical">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
         <item name="android:textSize">@dimen/text_size_14</item>
         <item name="android:typeface">serif</item>
-        <item name="android:layout_marginRight">@dimen/dim8</item>
-        <item name="android:padding">@dimen/dim8</item>
+        <item name="android:layout_marginRight">@dimen/margin_8</item>
+        <item name="android:padding">@dimen/padding_8</item>
     </style>
 
-    <!--Basic style of each CheckBox answer (incl. question 2)-->
+    <!-- Style of each CheckBox answer (incl. question 2) -->
     <style name="AnswerMultipleOptions">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">0dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:textSize">@dimen/text_size_14</item>
         <item name="android:typeface">serif</item>
-        <item name="android:layout_marginBottom">@dimen/dim8</item>
-        <item name="android:layout_marginLeft">@dimen/dim8</item>
+        <item name="android:layout_marginBottom">@dimen/margin_8</item>
+        <item name="android:layout_marginLeft">@dimen/margin_8</item>
     </style>
 
-    <!--Basic style of the text answer box (incl. question 4)-->
+    <!-- Style of the text answer box (incl. question 4) -->
     <style name="TextAnswer">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:textSize">@dimen/text_size_14</item>
         <item name="android:typeface">serif</item>
-        <item name="android:layout_marginBottom">@dimen/dim8</item>
+        <item name="android:layout_marginBottom">@dimen/margin_8</item>
         <item name="android:lines">1</item>
         <item name="android:maxLines">1</item>
         <item name="android:inputType">text</item>
     </style>
 
-    <!--Basic style of the Submit Button-->
+    <!-- Submit Button style -->
     <style name="SubmitButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_margin">@dimen/dim20</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin_8</item>
+        <item name="android:layout_marginBottom">@dimen/margin_8</item>
+        <item name="android:layout_marginLeft">@dimen/dim24</item>
+        <item name="android:layout_marginRight">@dimen/dim24</item>
         <item name="android:background">@drawable/submit_button</item>
     </style>
 
-    <!--Basic style of the Reset Button-->
+    <!-- Reset Button style-->
     <style name="ResetButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_margin">@dimen/dim20</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin_8</item>
+        <item name="android:layout_marginBottom">@dimen/margin_8</item>
+        <item name="android:layout_marginLeft">@dimen/margin_24</item>
+        <item name="android:layout_marginRight">@dimen/margin_24</item>
         <item name="android:background">@drawable/reset_button</item>
     </style>
 
