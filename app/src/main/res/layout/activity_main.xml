@@ -309,21 +309,21 @@
                     <RadioGroup
                         android:id="@+id/radio_group_q5"
                         style="@style/RadioGroup"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
 
                         <RadioButton
                             android:id="@+id/radio_button_q5_a"
-                            style="@style/AnswerOneOption"
+                            style="@style/AnswerOneOptionVertical"
                             android:text="@string/question_5_a" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q5_b"
-                            style="@style/AnswerOneOption"
+                            style="@style/AnswerOneOptionVertical"
                             android:text="@string/question_5_b" />
 
                         <RadioButton
                             android:id="@+id/radio_button_q5_c"
-                            style="@style/AnswerOneOption"
+                            style="@style/AnswerOneOptionVertical"
                             android:text="@string/question_5_c" />
 
                     </RadioGroup>
